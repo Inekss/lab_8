@@ -50,7 +50,12 @@ ENV PATH="/app/.venv/bin:$PATH" \
     LOG_LEVEL="INFO" \
     PORT="8000" \
     HF_HOME="/app/.cache/huggingface" \
-    TRANSFORMERS_CACHE="/app/.cache/huggingface"
+    TRANSFORMERS_CACHE="/app/.cache/huggingface" \
+    OMP_NUM_THREADS="1" \
+    MKL_NUM_THREADS="1" \
+    OPENBLAS_NUM_THREADS="1" \
+    TOKENIZERS_PARALLELISM="false" \
+    PYTORCH_CUDA_ALLOC_CONF=""
 
 # Model downloads on first semantic query; cache under /app (writable by findex)
 RUN mkdir -p /app/.cache/huggingface && chown -R findex:findex /app/.cache

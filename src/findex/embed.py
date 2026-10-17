@@ -138,25 +138,48 @@ def load_embeddings(path: Path) -> EmbeddingStore:
     else:
         ids_path = path.with_name(path.stem + "_doc_ids.npy")
         model_name = "unknown"
-    vectors = np.load(path)
-    chunk_doc_ids = np.load(ids_path)
-    return EmbeddingStore(
-        vectors.astype(np.float32),
-        chunk_doc_ids.astype(np.int32),
-        model_name,
-        path,
-    )
+    # mmap keeps the ~13 MiB matrix on disk until touched (helps low-RAM hosts)
+    vectors = np.load(path, mmap_mode="r")
+    chunk_doc_ids = np.load(ids_path, mmap_mode="r")
+    return EmbeddingStore(vectors, chunk_doc_ids, model_name, path)
 
 
 _MODEL_CACHE: dict[str, object] = {}
 
 
+def _limit_torch_threads() -> None:
+    import os
+
+    for key in (
+        "OMP_NUM_THREADS",
+        "MKL_NUM_THREADS",
+        "OPENBLAS_NUM_THREADS",
+        "NUMEXPR_NUM_THREADS",
+    ):
+        os.environ.setdefault(key, "1")
+    os.environ.setdefault("TOKENIZERS_PARALLELISM", "false")
+
+
 def encode_query(text: str, model_name: str) -> np.ndarray:
+    """Encode one query. Loads MiniLM once (~400+ MiB RSS) — avoid on tiny RAM hosts."""
+    _limit_torch_threads()
     from sentence_transformers import SentenceTransformer
 
     model = _MODEL_CACHE.get(model_name)
     if model is None:
-        model = SentenceTransformer(model_name)
+        try:
+            import torch
+
+            torch.set_num_threads(1)
+        except Exception:
+            pass
+        model = SentenceTransformer(model_name, device="cpu")
         _MODEL_CACHE[model_name] = model
-    vec = model.encode(text, normalize_embeddings=True, convert_to_numpy=True)
+    vec = model.encode(
+        text,
+        normalize_embeddings=True,
+        convert_to_numpy=True,
+        show_progress_bar=False,
+    )
     return np.asarray(vec, dtype=np.float32)
+

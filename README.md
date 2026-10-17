@@ -229,9 +229,8 @@ Three paraphrases: keyword 0.00, semantic/hybrid 0.20.
 ## Limits
 
 - Brute-force `E @ q` only (fine at 8k chunks).
-- Snippets still read files from disk.
-- First semantic/hybrid query downloads MiniLM (~80 MB) into the container cache; needs enough RAM (torch).
-- Render free tier cold start inflates p95.
+- Keyword is light (~120–140 MiB). First **semantic/hybrid** loads MiniLM+torch (~500–600 MiB RSS) — can OOM / restart on Render free (512 MiB). Prefer keyword there, or a plan with more RAM.
+- Snippets cache document text after the first read.
 
 ## Docker
 

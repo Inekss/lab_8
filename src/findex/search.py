@@ -184,11 +184,23 @@ def _matcher(index: Index):
     return match_ids
 
 
+_TEXT_CACHE: dict[str, str] = {}
+
+
+def _doc_text(path: Path) -> str:
+    key = str(path)
+    text = _TEXT_CACHE.get(key)
+    if text is None:
+        text = read_text(path) if path.is_file() else ""
+        _TEXT_CACHE[key] = text
+    return text
+
+
 def _snippet(index: Index, doc_id: int, terms: list[str]) -> str:
     path = Path(index.doc_meta[doc_id].path)
-    if not path.is_file():
+    text = _doc_text(path)
+    if not text:
         return ""
-    text = read_text(path)
     folded = text.lower()
     at = -1
     hit = ""
@@ -300,22 +312,34 @@ def semantic_search(
     store: EmbeddingStore,
     *,
     k: int = 10,
+    with_snippet: bool = True,
 ) -> list[SearchResult]:
     q = encode_query(query, store.model_name)
-    sims = store.vectors @ q  # cosine == dot after L2 norm
-    # best chunk per document
-    best: dict[int, float] = {}
-    for i, sim in enumerate(sims):
-        doc_id = int(store.chunk_doc_ids[i])
-        s = float(sim)
-        if doc_id not in best or s > best[doc_id]:
-            best[doc_id] = s
-    ordered = sorted(best.items(), key=lambda item: (-item[1], item[0]))[:k]
-    return [
-        SearchResult(score, doc_id, index.doc_meta[doc_id].title, _snippet(index, doc_id, []))
-        for doc_id, score in ordered
-        if doc_id in index.doc_meta
-    ]
+    # mmap @ vector may copy a row slice; still much cheaper than torch
+    sims = np.asarray(store.vectors @ q, dtype=np.float64)
+    doc_ids = np.asarray(store.chunk_doc_ids, dtype=np.int32)
+    # best chunk score per document (vectorized scatter-max)
+    n_docs = int(doc_ids.max()) + 1 if doc_ids.size else 0
+    best = np.full(n_docs, -np.inf, dtype=np.float64)
+    np.maximum.at(best, doc_ids, sims)
+    scored = np.flatnonzero(np.isfinite(best) & (best > -np.inf))
+    if scored.size == 0:
+        return []
+    if scored.size <= k:
+        chosen = scored
+    else:
+        part = np.argpartition(best[scored], -k)[-k:]
+        chosen = scored[part]
+    order = np.lexsort((chosen, -best[chosen]))
+    chosen = chosen[order]
+    out: list[SearchResult] = []
+    for doc_id in chosen:
+        did = int(doc_id)
+        if did not in index.doc_meta:
+            continue
+        snip = _snippet(index, did, []) if with_snippet else ""
+        out.append(SearchResult(float(best[did]), did, index.doc_meta[did].title, snip))
+    return out
 
 
 @timed
@@ -338,7 +362,9 @@ def search(
     if mode == "semantic":
         if embeddings is None:
             raise ValueError("semantic mode requires embeddings")
-        return semantic_search(index, query, embeddings, k=k)
+        return semantic_search(
+            index, query, embeddings, k=k, with_snippet=with_snippet
+        )
 
     if mode == "hybrid":
         if embeddings is None:
@@ -353,7 +379,9 @@ def search(
             scorer_name=scorer_name,
             with_snippet=False,
         )
-        sem = semantic_search(index, query, embeddings, k=max(k, 20))
+        sem = semantic_search(
+            index, query, embeddings, k=max(k, 20), with_snippet=False
+        )
         fused = reciprocal_rank_fusion(
             [[h.doc_id for h in kw], [h.doc_id for h in sem]],
             k=rrf_k,
