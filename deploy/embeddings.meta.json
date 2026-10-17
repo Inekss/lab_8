@@ -1,0 +1,7 @@
+{
+  "model": "all-MiniLM-L6-v2",
+  "n_chunks": 8439,
+  "dim": 384,
+  "vectors": "embeddings.npy",
+  "chunk_doc_ids": "embeddings_doc_ids.npy"
+}

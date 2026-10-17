@@ -12,17 +12,23 @@ WORKDIR /app
 RUN --mount=type=cache,target=/root/.cache/uv \
     --mount=type=bind,source=uv.lock,target=uv.lock \
     --mount=type=bind,source=pyproject.toml,target=pyproject.toml \
-    uv sync --frozen --no-install-project --no-dev
+    uv sync --frozen --no-install-project --no-dev --group semantic
 
 COPY . /app
 
 RUN --mount=type=cache,target=/root/.cache/uv \
-    uv sync --frozen --no-dev
+    uv sync --frozen --no-dev --group semantic
 
-# Build a portable index from the bundled book corpus (paths resolve inside the image).
+# Index from the bundled corpus. Embeddings are copied from deploy/ (pre-built).
 RUN mkdir -p /app/deploy \
-    && uv run findex index --corpus src/resources --out-pkl /app/deploy/index.pkl --out-json /app/deploy/index.json
-
+    && uv run findex index --corpus src/resources --out-pkl /app/deploy/index.pkl --out-json /app/deploy/index.json \
+    && if [ -f /app/embeddings.npy ]; then \
+         cp /app/embeddings.npy /app/embeddings.meta.json /app/embeddings_doc_ids.npy /app/deploy/; \
+       elif [ -f /app/deploy/embeddings.npy ]; then \
+         true; \
+       else \
+         echo "WARNING: no embeddings.npy — semantic/hybrid will be unavailable"; \
+       fi
 
 
 FROM python:3.12-slim-bookworm AS runtime
@@ -40,8 +46,14 @@ COPY --from=builder --chown=findex:findex /app/pyproject.toml /app/pyproject.tom
 ENV PATH="/app/.venv/bin:$PATH" \
     PYTHONPATH="/app/src" \
     INDEX_PATH="/app/deploy/index.pkl" \
+    EMBEDDINGS_PATH="/app/deploy/embeddings.npy" \
     LOG_LEVEL="INFO" \
-    PORT="8000"
+    PORT="8000" \
+    HF_HOME="/app/.cache/huggingface" \
+    TRANSFORMERS_CACHE="/app/.cache/huggingface"
+
+# Model downloads on first semantic query; cache under /app (writable by findex)
+RUN mkdir -p /app/.cache/huggingface && chown -R findex:findex /app/.cache
 
 USER findex
 EXPOSE 8000

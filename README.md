@@ -1,6 +1,6 @@
 # findex
 
-https://lab-7-6olw.onrender.com/
+https://lab-8-xeq7.onrender.com/
 
 Search over a saved index. Keyword (BM25/TF-IDF), semantic (embeddings), or hybrid (RRF). HTTP API + HTML page.
 
@@ -48,7 +48,7 @@ uv run findex serve --index index.pkl --embeddings embeddings.npy
 - `GET /stats` · `GET /health`
 - OpenAPI: `/docs`
 
-Index from `INDEX_PATH`. Embeddings from `EMBEDDINGS_PATH` (optional).
+Index from `INDEX_PATH`. Embeddings from `EMBEDDINGS_PATH` (optional; Docker defaults to `/app/deploy/embeddings.npy`).
 
 ## Profile (before NumPy)
 
@@ -182,7 +182,7 @@ Free-threaded 3.13t (`sys._is_gil_enabled()` False):
 
 ```bash
 oha -z 15s -c 20 "http://127.0.0.1:8000/search?q=harry&mode=keyword"
-oha -z 15s -c 20 "https://lab-7-6olw.onrender.com/search?q=harry"
+oha -z 15s -c 20 "https://lab-8-xeq7.onrender.com/search?q=harry"
 ```
 
 | Target | RPS | p50 (ms) | p95 | p99 |
@@ -230,7 +230,7 @@ Three paraphrases: keyword 0.00, semantic/hybrid 0.20.
 
 - Brute-force `E @ q` only (fine at 8k chunks).
 - Snippets still read files from disk.
-- Docker image does not bake embeddings; set `EMBEDDINGS_PATH` if needed.
+- First semantic/hybrid query downloads MiniLM (~80 MB) into the container cache; needs enough RAM (torch).
 - Render free tier cold start inflates p95.
 
 ## Docker

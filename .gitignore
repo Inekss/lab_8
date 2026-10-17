@@ -219,10 +219,13 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# Lab 08 artifacts
+# Lab 08 artifacts (keep deploy/ embeddings for Docker)
 embeddings.npy
 embeddings.meta.json
 *_doc_ids.npy
+!deploy/embeddings.npy
+!deploy/embeddings.meta.json
+!deploy/embeddings_doc_ids.npy
 index.pkl
 index.json
 index2.pkl

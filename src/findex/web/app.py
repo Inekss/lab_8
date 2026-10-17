@@ -65,6 +65,11 @@ def create_app(settings: Settings | None = None, *, load_on_startup: bool = True
                 app.state.index.num_docs,
             )
             emb = s.embeddings_path
+            if emb is None:
+                # same directory as the index (Docker: /app/deploy/embeddings.npy)
+                candidate = Path(s.index_path).resolve().parent / "embeddings.npy"
+                if candidate.is_file():
+                    emb = candidate
             if emb is not None and Path(emb).is_file():
                 app.state.embeddings = load_embeddings(Path(emb))
                 logger.info(
@@ -72,6 +77,8 @@ def create_app(settings: Settings | None = None, *, load_on_startup: bool = True
                     emb,
                     app.state.embeddings.n_chunks,
                 )
+            else:
+                logger.info("no embeddings loaded (keyword mode only)")
         yield
         app.state.index = None
         app.state.embeddings = None
