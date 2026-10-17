@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}{{ doc.title }} · findex{% endblock %}
+{% block content %}
+  <article class="doc">
+    <p class="crumb"><a href="/">← search</a></p>
+    <h1>{{ doc.title }}</h1>
+    <p class="meta">doc_id={{ doc.doc_id }} · {{ doc.path }}</p>
+    {% if doc.text %}
+    <pre class="doc-body">{{ doc.text }}</pre>
+    {% else %}
+    <p class="empty">Full text is not available on this host (path is not a local file).</p>
+    {% endif %}
+  </article>
+{% endblock %}

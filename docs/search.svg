@@ -1,0 +1,1833 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" width="1200" height="600"
+     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<style type="text/css">
+    .func_g:hover { stroke:black; stroke-width:0.5; cursor:pointer; }
+</style>
+<svg class="func_g" x="0.0" y="264" width="1203.9052235365432" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 100.41% (200 200 0.0026875000000000002 1.0839477)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="0.0" y="240" width="1.6715949618673744" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py:1517:debug 0.22% (200 200 0.00223 0.0024034)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">debug</text>
+</g></svg>
+<svg class="func_g" x="2.6715949618673744" y="240" width="1198.0310271580845" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 99.92% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="3.785296797722797" y="216" width="1" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\heapq.py:523:nlargest 0.13% (200 200 0.0003347 0.001391)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 215, 125)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">nlargest</text>
+</g></svg>
+<svg class="func_g" x="5.7135716501615645" y="216" width="13.343621498480504" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\query.py:135:parse 1.20% (200 200 0.0017209 0.0129037)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 215, 125)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">parse</text>
+</g></svg>
+<svg class="func_g" x="5.7135716501615645" y="192" width="2.428698785004542" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\query.py:97:_tokens 0.29% (800 800 0.0022027 0.0030845)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_tokens</text>
+</g></svg>
+<svg class="func_g" x="9.142270435166107" y="192" width="8.001987800487044" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\query.py:175:or_expr 0.75% (200 200 0.0002723 0.008098300000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 165, 95)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">or_expr</text>
+</g></svg>
+<svg class="func_g" x="9.29578098864613" y="168" width="7.545791340326284" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\query.py:164:and_expr 0.71% (200 200 0.0012567000000000001 0.0076879)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 165, 95)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">and_expr</text>
+</g></svg>
+<svg class="func_g" x="11.275077813602877" y="144" width="4.169559594599489" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\query.py:157:not_expr 0.43% (600 600 0.0007512 0.0046506)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 215, 125)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">not_expr</text>
+</g></svg>
+<svg class="func_g" x="12.636553019267836" y="120" width="1.9730581197513852" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\query.py:148:atom 0.25% (600 600 0.0005662 0.0026746)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">atom</text>
+</g></svg>
+<svg class="func_g" x="12.636553019267836" y="96" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\query.py:126:_atom_node 0.13% (600 600 0.0008019 0.0014524000000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_atom_node</text>
+</g></svg>
+<svg class="func_g" x="20.057193148642067" y="216" width="4.353194232071608" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\query.py:185:query_terms 0.45% (200 200 0.0019844000000000003 0.0048158)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 165, 95)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">query_terms</text>
+</g></svg>
+<svg class="func_g" x="20.057193148642067" y="192" width="1.1270144186857416" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\query.py:185:query_terms 0.18% (766 383 0.0017935902929040112 0.0019134885814787255)</title>
+    <rect height="100%" width="100%" fill="rgb(71, 230, 126)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">query_terms</text>
+</g></svg>
+<svg class="func_g" x="25.41038738071368" y="216" width="14.74411350665921" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\score.py:26:__call__ 1.31% (1800 1800 0.0066403 0.0141636)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 215, 125)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__call__</text>
+</g></svg>
+<svg class="func_g" x="26.852897483907192" y="192" width="2.540858197358881" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\models.py:99:df 0.30% (1800 1800 0.0017504 0.0031854)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">df</text>
+</g></svg>
+<svg class="func_g" x="26.852897483907192" y="168" width="1" height="23"><g>
+    <title>&lt;frozen _collections_abc&gt;:811:__contains__ 0.10% (525 525 0.00028725351040175445 0.0011305398353182458)</title>
+    <rect height="100%" width="100%" fill="rgb(44, 255, 210)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__contains__</text>
+</g></svg>
+<svg class="func_g" x="30.39375568126608" y="192" width="2.379455356190893" height="23"><g>
+    <title>~:0:&lt;built-in method math.log&gt; 0.28% (1800 1800 0.0030402000000000003 0.0030402000000000003)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method math.log&gt;</text>
+</g></svg>
+<svg class="func_g" x="41.15450088737288" y="216" width="4.093971487165445" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:154:_matcher 0.42% (200 200 0.0043791 0.0045826)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_matcher</text>
+</g></svg>
+<svg class="func_g" x="46.24847237453833" y="216" width="1051.5360504787757" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:168:_snippet 87.71% (600 600 0.0479377 0.9468745000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_snippet</text>
+</g></svg>
+<svg class="func_g" x="46.24847237453833" y="192" width="96.02533933826503" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:887:is_file 8.09% (600 600 0.0048846 0.08728520000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">is_file</text>
+</g></svg>
+<svg class="func_g" x="46.24847237453833" y="168" width="89.90159104629225" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:836:stat 7.58% (600 600 0.0004914 0.08177620000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">stat</text>
+</g></svg>
+<svg class="func_g" x="46.24847237453833" y="144" width="89.35535581109977" height="23"><g>
+    <title>~:0:&lt;built-in method nt.stat&gt; 7.53% (600 600 0.0446031 0.0812848)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method nt.stat&gt;</text>
+</g></svg>
+<svg class="func_g" x="46.24847237453833" y="120" width="39.77500412446138" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:447:__fspath__ 3.40% (600 600 0.0014902000000000001 0.036681700000000005)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__fspath__</text>
+</g></svg>
+<svg class="func_g" x="46.24847237453833" y="96" width="38.11851298184062" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:437:__str__ 3.26% (1196 1196 0.006887875588954834 0.03519150000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(99, 206, 42)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__str__</text>
+</g></svg>
+<svg class="func_g" x="46.24847237453833" y="72" width="3.2417304360519257" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:429:_format_parsed_parts 0.35% (598 598 0.001271572541963032 0.0038159133684252267)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_format_parsed_parts</text>
+</g></svg>
+<svg class="func_g" x="46.24847237453833" y="48" width="1.3375761619647433" height="23"><g>
+    <title>&lt;frozen ntpath&gt;:156:splitdrive 0.19% (598 598 0.0006374304169686951 0.0021029125402074944)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">splitdrive</text>
+</g></svg>
+<svg class="func_g" x="46.24847237453833" y="24" width="1" height="23"><g>
+    <title>&lt;frozen ntpath&gt;:179:splitroot 0.14% (598 598 0.0009432415705839718 0.0014654821232387993)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">splitroot</text>
+</g></svg>
+<svg class="func_g" x="50.490202810590255" y="72" width="25.949027682241375" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:551:drive 2.25% (598 598 0.0024134070187559467 0.024243679920038064)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">drive</text>
+</g></svg>
+<svg class="func_g" x="50.490202810590255" y="48" width="23.266309020244307" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:407:_load_parts 2.02% (598 598 0.0018701413265074986 0.021830272901282116)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 165, 95)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_load_parts</text>
+</g></svg>
+<svg class="func_g" x="50.490202810590255" y="24" width="20.95011042647797" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:387:_parse_path 1.83% (598 598 0.009357781442542928 0.019746591886864045)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_parse_path</text>
+</g></svg>
+<svg class="func_g" x="50.490202810590255" y="0" width="2.0521186098814668" height="23"><g>
+    <title>&lt;frozen ntpath&gt;:179:splitroot 0.25% (598 598 0.0021851198395664386 0.0027457237985887735)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">splitroot</text>
+</g></svg>
+<svg class="func_g" x="53.54232142047172" y="0" width="2.6067169724173587" height="23"><g>
+    <title>~:0:&lt;built-in method sys.intern&gt; 0.30% (1794 1794 0.0032446473717890638 0.0032446473717890638)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method sys.intern&gt;</text>
+</g></svg>
+<svg class="func_g" x="57.69001270937107" y="0" width="1" height="23"><g>
+    <title>~:0:&lt;method 'split' of 'str' objects&gt; 0.12% (598 598 0.0013032597191704796 0.0013032597191704796)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 165, 95)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'split' of 'str' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="59.13870293976989" y="0" width="1.899595752838941" height="23"><g>
+    <title>~:0:&lt;method 'startswith' of 'str' objects&gt; 0.24% (598 598 0.002608512342567843 0.002608512342567843)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 165, 95)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'startswith' of 'str' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="143.27381171280337" y="192" width="6.951313107153831" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:1158:__init__ 0.66% (600 600 0.0034606000000000003 0.007153100000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 165, 95)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__init__</text>
+</g></svg>
+<svg class="func_g" x="143.27381171280337" y="168" width="3.1045453926501123" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:358:__init__ 0.34% (600 600 0.0017843000000000002 0.0036925)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 215, 125)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__init__</text>
+</g></svg>
+<svg class="func_g" x="143.27381171280337" y="144" width="1" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.isinstance&gt; 0.11% (1200 1200 0.0011733000000000002 0.0011733000000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.isinstance&gt;</text>
+</g></svg>
+<svg class="func_g" x="151.2251248199572" y="192" width="1.959163247061304" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:1165:__new__ 0.25% (600 600 0.0021028 0.0026621)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__new__</text>
+</g></svg>
+<svg class="func_g" x="154.18428806701849" y="192" width="30.385849591337898" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\re\__init__.py:179:sub 2.62% (1800 1800 0.0026171000000000002 0.028235100000000003)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 165, 95)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">sub</text>
+</g></svg>
+<svg class="func_g" x="154.18428806701849" y="168" width="7.089261403220961" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\re\__init__.py:280:_compile 0.67% (1800 1800 0.005639000000000001 0.0072772)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_compile</text>
+</g></svg>
+<svg class="func_g" x="154.18428806701849" y="144" width="1" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.isinstance&gt; 0.15% (1800 1800 0.0016382 0.0016382)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.isinstance&gt;</text>
+</g></svg>
+<svg class="func_g" x="162.27354947023946" y="168" width="19.38744648273993" height="23"><g>
+    <title>~:0:&lt;method 'sub' of 're.Pattern' objects&gt; 1.70% (1800 1800 0.0164347 0.0183408)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'sub' of 're.Pattern' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="162.27354947023946" y="144" width="1.1188013467651672" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:190:&lt;lambda&gt; 0.18% (1200 1200 0.0011444 0.0019061000000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;lambda&gt;</text>
+</g></svg>
+<svg class="func_g" x="185.57013765835637" y="192" width="11.597647375735606" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\re\__init__.py:255:escape 1.05% (1800 1800 0.0030674 0.011333000000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 215, 125)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">escape</text>
+</g></svg>
+<svg class="func_g" x="186.20618935061756" y="168" width="7.551905084309919" height="23"><g>
+    <title>~:0:&lt;method 'translate' of 'str' objects&gt; 0.71% (1800 1800 0.0076934 0.0076934)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'translate' of 'str' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="198.167785034092" y="192" width="586.9085150466187" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\documents.py:9:read_text 48.99% (600 600 0.005903800000000001 0.5288898000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">read_text</text>
+</g></svg>
+<svg class="func_g" x="198.167785034092" y="168" width="406.6026444351174" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:1016:read_bytes 33.97% (600 600 0.005023700000000001 0.3666844)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">read_bytes</text>
+</g></svg>
+<svg class="func_g" x="198.167785034092" y="144" width="108.00838870517295" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:1006:open 9.08% (600 600 0.0015322 0.09806530000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">open</text>
+</g></svg>
+<svg class="func_g" x="198.167785034092" y="120" width="106.3052107903135" height="23"><g>
+    <title>~:0:&lt;built-in method _io.open&gt; 8.94% (600 600 0.0957993 0.09653310000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method _io.open&gt;</text>
+</g></svg>
+<svg class="func_g" x="307.176173739265" y="144" width="40.82723504353588" height="23"><g>
+    <title>~:0:&lt;method '__exit__' of '_io._IOBase' objects&gt; 3.49% (600 600 0.0376283 0.0376283)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 215, 125)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method '__exit__' of '_io._IOBase' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="349.0034087828008" y="144" width="250.18272693175552" height="23"><g>
+    <title>~:0:&lt;method 'read' of '_io.BufferedReader' objects&gt; 20.93% (600 600 0.2259671 0.2259671)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'read' of '_io.BufferedReader' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="605.7704294692094" y="168" width="172.743266660485" height="23"><g>
+    <title>~:0:&lt;method 'decode' of 'bytes' objects&gt; 14.48% (600 600 0.1563016 0.1563016)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'decode' of 'bytes' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="786.2581561744786" y="192" width="1" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.max&gt; 0.14% (600 600 0.0015419000000000001 0.0015419000000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 165, 95)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.max&gt;</text>
+</g></svg>
+<svg class="func_g" x="787.9721165105456" y="192" width="24.59302158735211" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.sorted&gt; 2.13% (1200 1200 0.006693800000000001 0.0230238)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.sorted&gt;</text>
+</g></svg>
+<svg class="func_g" x="787.9721165105456" y="168" width="16.948377782829983" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:176:&lt;lambda&gt; 1.50% (1780 1780 0.0032480044200902183 0.016146583512457992)</title>
+    <rect height="100%" width="100%" fill="rgb(85, 218, 84)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;lambda&gt;</text>
+</g></svg>
+<svg class="func_g" x="787.9721165105456" y="144" width="13.337929149711906" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\models.py:99:df 1.19% (1780 1780 0.0045787874420998445 0.012898579092367773)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">df</text>
+</g></svg>
+<svg class="func_g" x="787.9721165105456" y="120" width="6.2860303846183285" height="23"><g>
+    <title>&lt;frozen _collections_abc&gt;:811:__contains__ 0.61% (3041 3041 0.0016654281235893161 0.0065546034022132575)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 215, 125)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__contains__</text>
+</g></svg>
+<svg class="func_g" x="787.9721165105456" y="96" width="4.434757444477922" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\models.py:67:__getitem__ 0.45% (3211 3211 0.004889175278623942 0.004889175278623942)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__getitem__</text>
+</g></svg>
+<svg class="func_g" x="795.2581468951639" y="120" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\models.py:67:__getitem__ 0.11% (3041 3041 0.0011455097780480178 0.0011455097780480178)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__getitem__</text>
+</g></svg>
+<svg class="func_g" x="813.5651380978977" y="192" width="1" height="23"><g>
+    <title>~:0:&lt;method 'find' of 'str' objects&gt; 0.11% (600 600 0.0012351 0.0012351)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'find' of 'str' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="814.9380626786593" y="192" width="228.0010633282907" height="23"><g>
+    <title>~:0:&lt;method 'lower' of 'str' objects&gt; 19.08% (600 600 0.2060122 0.2060122)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'lower' of 'str' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="1043.9391260069501" y="192" width="1" height="23"><g>
+    <title>~:0:&lt;method 'replace' of 'str' objects&gt; 0.13% (600 600 0.0014019000000000002 0.0014019000000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'replace' of 'str' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="1098.784522853314" y="216" width="2.4098017581460316" height="23"><g>
+    <title>~:0:&lt;method 'cache_info' of 'functools._lru_cache_wrapper' objects&gt; 0.28% (400 400 0.0023552 0.0030675000000000003)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'cache_info' of 'functools._lru_cache_wrapper' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="0.0" y="312" width="1.6313554105568984" height="23"><g>
+    <title>&lt;frozen _collections_abc&gt;:811:__contains__ 0.22% (4200 4200 0.0023672000000000003 0.0087615)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 215, 125)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__contains__</text>
+</g></svg>
+<svg class="func_g" x="0.0" y="336" width="1.3304531694067574" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\models.py:99:df 0.18% (3600 3600 0.0019716 0.0077596)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">df</text>
+</g></svg>
+<svg class="func_g" x="0.4573750362483155" y="360" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:176:&lt;lambda&gt; 0.43% (1800 1800 0.0046308 0.0130451)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;lambda&gt;</text>
+</g></svg>
+<svg class="func_g" x="0.4573750362483155" y="384" width="1" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.sorted&gt; 0.30% (1800 1800 0.0032849000000000003 0.01633)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.sorted&gt;</text>
+</g></svg>
+<svg class="func_g" x="0.5346549332415357" y="408" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:168:_snippet 0.62% (1200 1200 0.006693800000000001 0.0230238)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_snippet</text>
+</g></svg>
+<svg class="func_g" x="0.5346549332415357" y="432" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 4.44% (600 600 0.0479377 0.9468745000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="0.5346549332415357" y="456" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="3.3424394153445154" y="312" width="2.4898362248409014" height="23"><g>
+    <title>&lt;frozen ntpath&gt;:179:splitroot 0.29% (1200 1200 0.0031395000000000004 0.0042262)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">splitroot</text>
+</g></svg>
+<svg class="func_g" x="3.3424394153445154" y="336" width="1" height="23"><g>
+    <title>&lt;frozen ntpath&gt;:156:splitdrive 0.09% (600 600 0.0009466 0.0014707000000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">splitdrive</text>
+</g></svg>
+<svg class="func_g" x="3.3424394153445154" y="360" width="1" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:429:_format_parsed_parts 0.06% (600 600 0.0006397 0.0021104)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_format_parsed_parts</text>
+</g></svg>
+<svg class="func_g" x="3.3424394153445154" y="384" width="1" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:437:__str__ 0.12% (600 600 0.0012761 0.0038295000000000004)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__str__</text>
+</g></svg>
+<svg class="func_g" x="3.3424394153445154" y="408" width="1" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:447:__fspath__ 0.64% (1200 1200 0.006912400000000001 0.0353168)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__fspath__</text>
+</g></svg>
+<svg class="func_g" x="4.556887888174366" y="336" width="1.275387752011051" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:387:_parse_path 0.20% (600 600 0.0021929000000000002 0.0027555)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_parse_path</text>
+</g></svg>
+<svg class="func_g" x="4.556887888174366" y="360" width="1.275387752011051" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:407:_load_parts 0.87% (600 600 0.009391100000000001 0.019816900000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_load_parts</text>
+</g></svg>
+<svg class="func_g" x="4.556887888174366" y="384" width="1.275387752011051" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:551:drive 0.17% (600 600 0.0018768 0.021908)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">drive</text>
+</g></svg>
+<svg class="func_g" x="4.556887888174366" y="408" width="1.275387752011051" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:437:__str__ 0.22% (600 600 0.002422 0.02433)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__str__</text>
+</g></svg>
+<svg class="func_g" x="4.556887888174366" y="432" width="1.275387752011051" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:447:__fspath__ 0.64% (1200 1200 0.006912400000000001 0.0353168)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__fspath__</text>
+</g></svg>
+<svg class="func_g" x="4.601513231479299" y="456" width="1.2307624087061186" height="23"><g>
+    <title>~:0:&lt;built-in method nt.stat&gt; 0.14% (600 600 0.0014902000000000001 0.036681700000000005)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method nt.stat&gt;</text>
+</g></svg>
+<svg class="func_g" x="4.601513231479299" y="480" width="1.2307624087061186" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:836:stat 4.13% (600 600 0.0446031 0.0812848)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">stat</text>
+</g></svg>
+<svg class="func_g" x="4.601513231479299" y="504" width="1.2307624087061186" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:887:is_file 0.05% (600 600 0.0004914 0.08177620000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">is_file</text>
+</g></svg>
+<svg class="func_g" x="4.601513231479299" y="528" width="1.2307624087061186" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:168:_snippet 0.45% (600 600 0.0048846 0.08728520000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_snippet</text>
+</g></svg>
+<svg class="func_g" x="4.601513231479299" y="552" width="1.2307624087061186" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 4.44% (600 600 0.0479377 0.9468745000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="4.601513231479299" y="576" width="1.2307624087061186" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="8.051022713577858" y="312" width="1.6712614849228125" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py:1517:debug 0.22% (400 400 0.0024031 0.0026274000000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">debug</text>
+</g></svg>
+<svg class="func_g" x="8.051022713577858" y="336" width="1.4435220571148233" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 0.21% (200 200 0.00223 0.0024034)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="10.971613794051494" y="312" width="1" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:358:__init__ 0.17% (600 600 0.0017843000000000002 0.0036925)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 215, 125)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__init__</text>
+</g></svg>
+<svg class="func_g" x="10.971613794051494" y="336" width="1" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:1158:__init__ 0.17% (600 600 0.0017843000000000002 0.0036925)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__init__</text>
+</g></svg>
+<svg class="func_g" x="10.971613794051494" y="360" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:168:_snippet 0.32% (600 600 0.0034606000000000003 0.007153100000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_snippet</text>
+</g></svg>
+<svg class="func_g" x="10.971613794051494" y="384" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 4.44% (600 600 0.0479377 0.9468745000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="10.971613794051494" y="408" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="12.955023501324506" y="312" width="9.439051113586046" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:387:_parse_path 0.87% (600 600 0.009391100000000001 0.019816900000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_parse_path</text>
+</g></svg>
+<svg class="func_g" x="12.955023501324506" y="336" width="9.439051113586046" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:407:_load_parts 0.87% (600 600 0.009391100000000001 0.019816900000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_load_parts</text>
+</g></svg>
+<svg class="func_g" x="12.955023501324506" y="360" width="9.439051113586046" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:551:drive 0.17% (600 600 0.0018768 0.021908)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">drive</text>
+</g></svg>
+<svg class="func_g" x="12.955023501324506" y="384" width="9.439051113586046" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:437:__str__ 0.22% (600 600 0.002422 0.02433)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__str__</text>
+</g></svg>
+<svg class="func_g" x="12.955023501324506" y="408" width="9.439051113586046" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:447:__fspath__ 0.64% (1200 1200 0.006912400000000001 0.0353168)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__fspath__</text>
+</g></svg>
+<svg class="func_g" x="13.159756184494569" y="432" width="9.234318430415986" height="23"><g>
+    <title>~:0:&lt;built-in method nt.stat&gt; 0.14% (600 600 0.0014902000000000001 0.036681700000000005)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method nt.stat&gt;</text>
+</g></svg>
+<svg class="func_g" x="13.159756184494569" y="456" width="9.234318430415986" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:836:stat 4.13% (600 600 0.0446031 0.0812848)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">stat</text>
+</g></svg>
+<svg class="func_g" x="13.159756184494569" y="480" width="9.234318430415986" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:887:is_file 0.05% (600 600 0.0004914 0.08177620000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">is_file</text>
+</g></svg>
+<svg class="func_g" x="13.159756184494569" y="504" width="9.234318430415986" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:168:_snippet 0.45% (600 600 0.0048846 0.08728520000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_snippet</text>
+</g></svg>
+<svg class="func_g" x="13.159756184494569" y="528" width="9.234318430415986" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 4.44% (600 600 0.0479377 0.9468745000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="13.159756184494569" y="552" width="9.234318430415986" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="23.394074614910554" y="312" width="1.0862317651796154" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:407:_load_parts 0.17% (600 600 0.0018768 0.021908)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 165, 95)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_load_parts</text>
+</g></svg>
+<svg class="func_g" x="23.394074614910554" y="336" width="1.0862317651796154" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:551:drive 0.17% (600 600 0.0018768 0.021908)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">drive</text>
+</g></svg>
+<svg class="func_g" x="23.394074614910554" y="360" width="1.0862317651796154" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:437:__str__ 0.22% (600 600 0.002422 0.02433)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__str__</text>
+</g></svg>
+<svg class="func_g" x="23.394074614910554" y="384" width="1.0862317651796154" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:447:__fspath__ 0.64% (1200 1200 0.006912400000000001 0.0353168)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__fspath__</text>
+</g></svg>
+<svg class="func_g" x="23.434990194531004" y="408" width="1.045316185559169" height="23"><g>
+    <title>~:0:&lt;built-in method nt.stat&gt; 0.14% (600 600 0.0014902000000000001 0.036681700000000005)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method nt.stat&gt;</text>
+</g></svg>
+<svg class="func_g" x="23.434990194531004" y="432" width="1.045316185559169" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:836:stat 4.13% (600 600 0.0446031 0.0812848)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">stat</text>
+</g></svg>
+<svg class="func_g" x="23.434990194531004" y="456" width="1.045316185559169" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:887:is_file 0.05% (600 600 0.0004914 0.08177620000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">is_file</text>
+</g></svg>
+<svg class="func_g" x="23.434990194531004" y="480" width="1.045316185559169" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:168:_snippet 0.45% (600 600 0.0048846 0.08728520000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_snippet</text>
+</g></svg>
+<svg class="func_g" x="23.434990194531004" y="504" width="1.045316185559169" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 4.44% (600 600 0.0479377 0.9468745000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="23.434990194531004" y="528" width="1.045316185559169" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="25.48030638009017" y="312" width="1" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:429:_format_parsed_parts 0.12% (600 600 0.0012761 0.0038295000000000004)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_format_parsed_parts</text>
+</g></svg>
+<svg class="func_g" x="25.48030638009017" y="336" width="1" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:437:__str__ 0.12% (600 600 0.0012761 0.0038295000000000004)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__str__</text>
+</g></svg>
+<svg class="func_g" x="25.48030638009017" y="360" width="1" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:447:__fspath__ 0.64% (1200 1200 0.006912400000000001 0.0353168)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__fspath__</text>
+</g></svg>
+<svg class="func_g" x="25.508126270943567" y="384" width="1" height="23"><g>
+    <title>~:0:&lt;built-in method nt.stat&gt; 0.14% (600 600 0.0014902000000000001 0.036681700000000005)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method nt.stat&gt;</text>
+</g></svg>
+<svg class="func_g" x="25.508126270943567" y="408" width="1" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:836:stat 4.13% (600 600 0.0446031 0.0812848)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">stat</text>
+</g></svg>
+<svg class="func_g" x="25.508126270943567" y="432" width="1" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:887:is_file 0.05% (600 600 0.0004914 0.08177620000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">is_file</text>
+</g></svg>
+<svg class="func_g" x="25.508126270943567" y="456" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:168:_snippet 0.45% (600 600 0.0048846 0.08728520000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_snippet</text>
+</g></svg>
+<svg class="func_g" x="25.508126270943567" y="480" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 4.44% (600 600 0.0479377 0.9468745000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="25.508126270943567" y="504" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="26.898806143275223" y="312" width="6.6837534386336195" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:437:__str__ 0.64% (1200 1200 0.006912400000000001 0.0353168)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__str__</text>
+</g></svg>
+<svg class="func_g" x="26.898806143275223" y="336" width="6.683753438633621" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:447:__fspath__ 0.64% (1200 1200 0.006912400000000001 0.0353168)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__fspath__</text>
+</g></svg>
+<svg class="func_g" x="27.04950139720125" y="360" width="6.533058184707592" height="23"><g>
+    <title>~:0:&lt;built-in method nt.stat&gt; 0.14% (600 600 0.0014902000000000001 0.036681700000000005)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method nt.stat&gt;</text>
+</g></svg>
+<svg class="func_g" x="27.04950139720125" y="384" width="6.533058184707592" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:836:stat 4.13% (600 600 0.0446031 0.0812848)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">stat</text>
+</g></svg>
+<svg class="func_g" x="27.04950139720125" y="408" width="6.533058184707592" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:887:is_file 0.05% (600 600 0.0004914 0.08177620000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">is_file</text>
+</g></svg>
+<svg class="func_g" x="27.04950139720125" y="432" width="6.533058184707592" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:168:_snippet 0.45% (600 600 0.0048846 0.08728520000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_snippet</text>
+</g></svg>
+<svg class="func_g" x="27.04950139720125" y="456" width="6.533058184707592" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 4.44% (600 600 0.0479377 0.9468745000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="27.04950139720125" y="480" width="6.533058184707592" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="34.58255958190884" y="312" width="1.332893545173945" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:447:__fspath__ 0.19% (1200 1200 0.0020987000000000002 0.037415500000000004)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__fspath__</text>
+</g></svg>
+<svg class="func_g" x="34.62831273991685" y="336" width="1.2871403871659366" height="23"><g>
+    <title>~:0:&lt;built-in method nt.stat&gt; 0.14% (600 600 0.0014902000000000001 0.036681700000000005)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method nt.stat&gt;</text>
+</g></svg>
+<svg class="func_g" x="34.62831273991685" y="360" width="1.2871403871659366" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:836:stat 4.13% (600 600 0.0446031 0.0812848)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">stat</text>
+</g></svg>
+<svg class="func_g" x="34.62831273991685" y="384" width="1.2871403871659366" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:887:is_file 0.05% (600 600 0.0004914 0.08177620000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">is_file</text>
+</g></svg>
+<svg class="func_g" x="34.62831273991685" y="408" width="1.2871403871659366" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:168:_snippet 0.45% (600 600 0.0048846 0.08728520000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_snippet</text>
+</g></svg>
+<svg class="func_g" x="34.62831273991685" y="432" width="1.2871403871659366" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 4.44% (600 600 0.0479377 0.9468745000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="34.62831273991685" y="456" width="1.2871403871659366" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="36.91545312708279" y="312" width="1.692270532430216" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:551:drive 0.22% (600 600 0.002422 0.02433)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">drive</text>
+</g></svg>
+<svg class="func_g" x="36.91545312708279" y="336" width="1.692270532430216" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:437:__str__ 0.22% (600 600 0.002422 0.02433)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__str__</text>
+</g></svg>
+<svg class="func_g" x="36.91545312708279" y="360" width="1.692270532430216" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:447:__fspath__ 0.64% (1200 1200 0.006912400000000001 0.0353168)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__fspath__</text>
+</g></svg>
+<svg class="func_g" x="36.96825445585555" y="384" width="1.6394692036574532" height="23"><g>
+    <title>~:0:&lt;built-in method nt.stat&gt; 0.14% (600 600 0.0014902000000000001 0.036681700000000005)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method nt.stat&gt;</text>
+</g></svg>
+<svg class="func_g" x="36.96825445585555" y="408" width="1.6394692036574532" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:836:stat 4.13% (600 600 0.0446031 0.0812848)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">stat</text>
+</g></svg>
+<svg class="func_g" x="36.96825445585555" y="432" width="1.6394692036574532" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:887:is_file 0.05% (600 600 0.0004914 0.08177620000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">is_file</text>
+</g></svg>
+<svg class="func_g" x="36.96825445585555" y="456" width="1.6394692036574532" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:168:_snippet 0.45% (600 600 0.0048846 0.08728520000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_snippet</text>
+</g></svg>
+<svg class="func_g" x="36.96825445585555" y="480" width="1.6394692036574532" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 4.44% (600 600 0.0479377 0.9468745000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="36.96825445585555" y="504" width="1.6394692036574532" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="40.42618724044957" y="312" width="4.429671611357818" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:887:is_file 0.45% (600 600 0.0048846 0.08728520000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">is_file</text>
+</g></svg>
+<svg class="func_g" x="40.42618724044957" y="336" width="4.429671611357818" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:168:_snippet 0.45% (600 600 0.0048846 0.08728520000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_snippet</text>
+</g></svg>
+<svg class="func_g" x="40.42618724044957" y="360" width="4.429671611357818" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 4.44% (600 600 0.0479377 0.9468745000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="40.42618724044957" y="384" width="4.429671611357818" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="45.8558588518074" y="312" width="1" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:1006:open 0.14% (600 600 0.0015322 0.09806530000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">open</text>
+</g></svg>
+<svg class="func_g" x="45.8558588518074" y="336" width="1" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:1016:read_bytes 0.14% (600 600 0.0015322 0.09806530000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">read_bytes</text>
+</g></svg>
+<svg class="func_g" x="45.8558588518074" y="360" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\documents.py:9:read_text 0.47% (600 600 0.005023700000000001 0.3666844)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">read_text</text>
+</g></svg>
+<svg class="func_g" x="45.8558588518074" y="384" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:168:_snippet 0.55% (600 600 0.005903800000000001 0.5288898000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_snippet</text>
+</g></svg>
+<svg class="func_g" x="45.8558588518074" y="408" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 4.44% (600 600 0.0479377 0.9468745000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="45.8558588518074" y="432" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="47.559036766666836" y="312" width="4.584293754653046" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:1016:read_bytes 0.47% (600 600 0.005023700000000001 0.3666844)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">read_bytes</text>
+</g></svg>
+<svg class="func_g" x="47.559036766666836" y="336" width="4.584293754653046" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\documents.py:9:read_text 0.47% (600 600 0.005023700000000001 0.3666844)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">read_text</text>
+</g></svg>
+<svg class="func_g" x="47.559036766666836" y="360" width="4.584293754653046" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:168:_snippet 0.55% (600 600 0.005903800000000001 0.5288898000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_snippet</text>
+</g></svg>
+<svg class="func_g" x="47.559036766666836" y="384" width="4.584293754653046" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 4.44% (600 600 0.0479377 0.9468745000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="47.559036766666836" y="408" width="4.584293754653046" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="53.14333052131988" y="312" width="2.8467677145037182" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:1158:__init__ 0.32% (600 600 0.0034606000000000003 0.007153100000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 165, 95)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__init__</text>
+</g></svg>
+<svg class="func_g" x="53.14333052131988" y="336" width="2.8467677145037182" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:168:_snippet 0.32% (600 600 0.0034606000000000003 0.007153100000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_snippet</text>
+</g></svg>
+<svg class="func_g" x="53.14333052131988" y="360" width="2.8467677145037182" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 4.44% (600 600 0.0479377 0.9468745000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="53.14333052131988" y="384" width="2.8467677145037182" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="56.9900982358236" y="312" width="1.3374510634162915" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:1165:__new__ 0.19% (600 600 0.0021028 0.0026621)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__new__</text>
+</g></svg>
+<svg class="func_g" x="56.9900982358236" y="336" width="1.3374510634162915" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:168:_snippet 0.19% (600 600 0.0021028 0.0026621)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_snippet</text>
+</g></svg>
+<svg class="func_g" x="56.9900982358236" y="360" width="1.3374510634162915" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 4.44% (600 600 0.0479377 0.9468745000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="56.9900982358236" y="384" width="1.3374510634162915" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="59.3275492992399" y="312" width="1.9091417053770101" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\re\__init__.py:179:sub 0.24% (1800 1800 0.0026171000000000002 0.028235100000000003)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 165, 95)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">sub</text>
+</g></svg>
+<svg class="func_g" x="59.3275492992399" y="336" width="1.9091417053770101" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:168:_snippet 0.24% (1800 1800 0.0026171000000000002 0.028235100000000003)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_snippet</text>
+</g></svg>
+<svg class="func_g" x="59.3275492992399" y="360" width="1.9091417053770101" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 4.44% (600 600 0.0479377 0.9468745000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="59.3275492992399" y="384" width="1.9091417053770101" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="62.2366910046169" y="312" width="2.4096905991645103" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\re\__init__.py:255:escape 0.28% (1800 1800 0.0030674 0.011333000000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 215, 125)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">escape</text>
+</g></svg>
+<svg class="func_g" x="62.2366910046169" y="336" width="2.4096905991645103" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:168:_snippet 0.28% (1800 1800 0.0030674 0.011333000000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_snippet</text>
+</g></svg>
+<svg class="func_g" x="62.2366910046169" y="360" width="2.4096905991645103" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 4.44% (600 600 0.0479377 0.9468745000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="62.2366910046169" y="384" width="2.4096905991645103" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="65.6463816037814" y="312" width="5.268254967949624" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\re\__init__.py:280:_compile 0.52% (1800 1800 0.005639000000000001 0.0072772)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_compile</text>
+</g></svg>
+<svg class="func_g" x="65.6463816037814" y="336" width="5.268254967949624" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\re\__init__.py:179:sub 0.52% (1800 1800 0.005639000000000001 0.0072772)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">sub</text>
+</g></svg>
+<svg class="func_g" x="65.6463816037814" y="360" width="5.268254967949624" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:168:_snippet 0.24% (1800 1800 0.0026171000000000002 0.028235100000000003)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_snippet</text>
+</g></svg>
+<svg class="func_g" x="65.6463816037814" y="384" width="5.268254967949624" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 4.44% (600 600 0.0479377 0.9468745000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="65.6463816037814" y="408" width="5.268254967949624" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="71.91463657173104" y="312" width="1.9873976283675496" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 0.25% (200 200 0.0026875000000000002 1.0839477)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="74.90203420009858" y="312" width="5.562603951016313" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\documents.py:9:read_text 0.55% (600 600 0.005903800000000001 0.5288898000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">read_text</text>
+</g></svg>
+<svg class="func_g" x="74.90203420009858" y="336" width="5.562603951016313" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:168:_snippet 0.55% (600 600 0.005903800000000001 0.5288898000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_snippet</text>
+</g></svg>
+<svg class="func_g" x="74.90203420009858" y="360" width="5.562603951016313" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 4.44% (600 600 0.0479377 0.9468745000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="74.90203420009858" y="384" width="5.562603951016314" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="81.4646381511149" y="312" width="7.748323004656912" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\models.py:67:__getitem__ 0.73% (8400 8400 0.0078701 0.0078701)</title>
+    <rect height="100%" width="100%" fill="rgb(198, 198, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__getitem__</text>
+</g></svg>
+<svg class="func_g" x="81.4646381511149" y="336" width="6.1078387553751154" height="23"><g>
+    <title>&lt;frozen _collections_abc&gt;:811:__contains__ 0.59% (4200 4200 0.0063943 0.0063943)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__contains__</text>
+</g></svg>
+<svg class="func_g" x="81.4646381511149" y="360" width="5.295039160669834" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\models.py:99:df 0.18% (3600 3600 0.0019716 0.0077596)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">df</text>
+</g></svg>
+<svg class="func_g" x="81.4646381511149" y="384" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\score.py:26:__call__ 0.16% (1800 1800 0.0017504 0.0031854)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__call__</text>
+</g></svg>
+<svg class="func_g" x="81.4646381511149" y="408" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 0.62% (1800 1800 0.0066403 0.0141636)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="81.4646381511149" y="432" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="82.70010333964252" y="384" width="4.059573972142204" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:176:&lt;lambda&gt; 0.43% (1800 1800 0.0046308 0.0130451)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;lambda&gt;</text>
+</g></svg>
+<svg class="func_g" x="82.70010333964252" y="408" width="4.059573972142204" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.sorted&gt; 0.30% (1800 1800 0.0032849000000000003 0.01633)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.sorted&gt;</text>
+</g></svg>
+<svg class="func_g" x="82.9088524294295" y="432" width="3.8508248823552194" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:168:_snippet 0.62% (1200 1200 0.006693800000000001 0.0230238)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_snippet</text>
+</g></svg>
+<svg class="func_g" x="82.9088524294295" y="456" width="3.8508248823552194" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 4.44% (600 600 0.0479377 0.9468745000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="82.9088524294295" y="480" width="3.8508248823552194" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="88.57247690649001" y="336" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\models.py:99:df 0.13% (3600 3600 0.0013561 0.0013561)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">df</text>
+</g></svg>
+<svg class="func_g" x="88.86832471163702" y="360" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:176:&lt;lambda&gt; 0.43% (1800 1800 0.0046308 0.0130451)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;lambda&gt;</text>
+</g></svg>
+<svg class="func_g" x="88.86832471163702" y="384" width="1" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.sorted&gt; 0.30% (1800 1800 0.0032849000000000003 0.01633)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.sorted&gt;</text>
+</g></svg>
+<svg class="func_g" x="91.36290081960296" y="312" width="6.09327692879591" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\models.py:99:df 0.59% (3600 3600 0.0063812 0.016230500000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">df</text>
+</g></svg>
+<svg class="func_g" x="91.36290081960296" y="336" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\score.py:26:__call__ 0.16% (1800 1800 0.0017504 0.0031854)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__call__</text>
+</g></svg>
+<svg class="func_g" x="91.36290081960296" y="360" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 0.62% (1800 1800 0.0066403 0.0141636)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="91.36290081960296" y="384" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="92.7550282543084" y="336" width="4.701149494090478" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:176:&lt;lambda&gt; 0.43% (1800 1800 0.0046308 0.0130451)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;lambda&gt;</text>
+</g></svg>
+<svg class="func_g" x="92.7550282543084" y="360" width="4.701149494090478" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.sorted&gt; 0.30% (1800 1800 0.0032849000000000003 0.01633)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.sorted&gt;</text>
+</g></svg>
+<svg class="func_g" x="92.99024761747684" y="384" width="4.465930130922038" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:168:_snippet 0.62% (1200 1200 0.006693800000000001 0.0230238)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_snippet</text>
+</g></svg>
+<svg class="func_g" x="92.99024761747684" y="408" width="4.465930130922038" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 4.44% (600 600 0.0479377 0.9468745000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="92.99024761747684" y="432" width="4.465930130922038" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="98.89236559188592" y="312" width="1.448498885955424" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\query.py:97:_tokens 0.20% (800 800 0.0022027 0.0030845)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_tokens</text>
+</g></svg>
+<svg class="func_g" x="98.89236559188592" y="336" width="1.448498885955424" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\query.py:135:parse 0.20% (800 800 0.0022027 0.0030845)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">parse</text>
+</g></svg>
+<svg class="func_g" x="98.89236559188592" y="360" width="1.448498885955424" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 0.16% (200 200 0.0017209 0.0129037)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="98.89236559188592" y="384" width="1.448498885955424" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="101.34086447784134" y="312" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\query.py:122:_op 0.13% (1600 1600 0.0013584 0.0017027000000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_op</text>
+</g></svg>
+<svg class="func_g" x="103.74223195563201" y="312" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\query.py:135:parse 0.16% (200 200 0.0017209 0.0129037)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 215, 125)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">parse</text>
+</g></svg>
+<svg class="func_g" x="103.74223195563201" y="336" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 0.16% (200 200 0.0017209 0.0129037)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="103.74223195563201" y="360" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="108.3816743673595" y="312" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\query.py:164:and_expr 0.12% (200 200 0.0012567000000000001 0.0076879)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 165, 95)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">and_expr</text>
+</g></svg>
+<svg class="func_g" x="108.3816743673595" y="336" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\query.py:175:or_expr 0.12% (200 200 0.0012567000000000001 0.0076879)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">or_expr</text>
+</g></svg>
+<svg class="func_g" x="108.3816743673595" y="360" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\query.py:135:parse 0.03% (200 200 0.0002723 0.008098300000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">parse</text>
+</g></svg>
+<svg class="func_g" x="108.3816743673595" y="384" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 0.16% (200 200 0.0017209 0.0129037)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="108.3816743673595" y="408" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="110.08129519481028" y="312" width="3.2877353941961482" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\query.py:185:query_terms 0.36% (200 1000 0.0038573 0.0048158)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 165, 95)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">query_terms</text>
+</g></svg>
+<svg class="func_g" x="110.08129519481028" y="336" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\query.py:185:query_terms 0.17% (800 400 0.0018729 0.0019981)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">query_terms</text>
+</g></svg>
+<svg class="func_g" x="111.33862566504662" y="336" width="2.0304049239598196" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 0.18% (200 200 0.0019844000000000003 0.0048158)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="111.33862566504662" y="360" width="2.0304049239598196" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="114.36903058900643" y="312" width="6.381289849915921" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\score.py:26:__call__ 0.62% (1800 1800 0.0066403 0.0141636)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 215, 125)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__call__</text>
+</g></svg>
+<svg class="func_g" x="114.36903058900643" y="336" width="6.381289849915921" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 0.62% (1800 1800 0.0066403 0.0141636)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="114.36903058900643" y="360" width="6.381289849915921" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="121.75032043892234" y="312" width="3.867762959770916" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:154:_matcher 0.41% (200 200 0.0043791 0.0045826)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_matcher</text>
+</g></svg>
+<svg class="func_g" x="121.75032043892234" y="336" width="3.867762959770916" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 0.41% (200 200 0.0043791 0.0045826)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="121.75032043892234" y="360" width="3.867762959770916" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="126.61808339869326" y="312" width="52.287059084426076" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:168:_snippet 4.44% (600 600 0.0479377 0.9468745000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_snippet</text>
+</g></svg>
+<svg class="func_g" x="126.61808339869326" y="336" width="52.287059084426076" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 4.44% (600 600 0.0479377 0.9468745000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="126.61808339869326" y="360" width="52.287059084426076" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="179.90514248311936" y="312" width="2.651461383971931" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:176:&lt;lambda&gt; 0.30% (1800 1800 0.0032849000000000003 0.01633)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;lambda&gt;</text>
+</g></svg>
+<svg class="func_g" x="179.90514248311936" y="336" width="2.651461383971931" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.sorted&gt; 0.30% (1800 1800 0.0032849000000000003 0.01633)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.sorted&gt;</text>
+</g></svg>
+<svg class="func_g" x="180.05579533343706" y="360" width="2.500808533654233" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:168:_snippet 0.62% (1200 1200 0.006693800000000001 0.0230238)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_snippet</text>
+</g></svg>
+<svg class="func_g" x="180.05579533343706" y="384" width="2.500808533654233" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 4.44% (600 600 0.0479377 0.9468745000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="180.05579533343706" y="408" width="2.500808533654233" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="183.55660386709127" y="312" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:190:&lt;lambda&gt; 0.11% (1200 1200 0.0011444 0.0019061000000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;lambda&gt;</text>
+</g></svg>
+<svg class="func_g" x="183.55660386709127" y="336" width="1" height="23"><g>
+    <title>~:0:&lt;method 'sub' of 're.Pattern' objects&gt; 0.11% (1200 1200 0.0011444 0.0019061000000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'sub' of 're.Pattern' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="183.55660386709127" y="360" width="1" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\re\__init__.py:179:sub 1.52% (1800 1800 0.0164347 0.0183408)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">sub</text>
+</g></svg>
+<svg class="func_g" x="183.55660386709127" y="384" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:168:_snippet 0.24% (1800 1800 0.0026171000000000002 0.028235100000000003)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_snippet</text>
+</g></svg>
+<svg class="func_g" x="183.55660386709127" y="408" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 4.44% (600 600 0.0479377 0.9468745000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="183.55660386709127" y="432" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="184.82870725161362" y="312" width="93.33918254981845" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="184.82870725161362" y="336" width="93.33918254981845" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="280.34550805166185" y="312" width="105.48952618391495" height="23"><g>
+    <title>~:0:&lt;built-in method _io.open&gt; 8.87% (600 600 0.0957993 0.09653310000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method _io.open&gt;</text>
+</g></svg>
+<svg class="func_g" x="280.34550805166185" y="336" width="105.48952618391495" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:1006:open 8.87% (600 600 0.0957993 0.09653310000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">open</text>
+</g></svg>
+<svg class="func_g" x="280.34550805166185" y="360" width="105.48952618391495" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:1016:read_bytes 0.14% (600 600 0.0015322 0.09806530000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">read_bytes</text>
+</g></svg>
+<svg class="func_g" x="280.34550805166185" y="384" width="105.48952618391495" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\documents.py:9:read_text 0.47% (600 600 0.005023700000000001 0.3666844)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">read_text</text>
+</g></svg>
+<svg class="func_g" x="280.34550805166185" y="408" width="105.48952618391495" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:168:_snippet 0.55% (600 600 0.005903800000000001 0.5288898000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_snippet</text>
+</g></svg>
+<svg class="func_g" x="280.34550805166185" y="432" width="105.48952618391495" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 4.44% (600 600 0.0479377 0.9468745000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="280.34550805166185" y="456" width="105.48952618391495" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="387.75531944358636" y="312" width="4.146660844406235" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.isinstance&gt; 0.43% (7800 7800 0.0046300000000000004 0.0046300000000000004)</title>
+    <rect height="100%" width="100%" fill="rgb(182, 182, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.isinstance&gt;</text>
+</g></svg>
+<svg class="func_g" x="388.0752349924028" y="336" width="1" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:358:__init__ 0.11% (1200 1200 0.0011733000000000002 0.0011733000000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__init__</text>
+</g></svg>
+<svg class="func_g" x="388.0752349924028" y="360" width="1" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:1158:__init__ 0.17% (600 600 0.0017843000000000002 0.0036925)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__init__</text>
+</g></svg>
+<svg class="func_g" x="388.0752349924028" y="384" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:168:_snippet 0.32% (600 600 0.0034606000000000003 0.007153100000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_snippet</text>
+</g></svg>
+<svg class="func_g" x="388.0752349924028" y="408" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 4.44% (600 600 0.0479377 0.9468745000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="388.0752349924028" y="432" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="390.0155150148458" y="336" width="1" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\re\__init__.py:280:_compile 0.15% (1800 1800 0.0016382 0.0016382)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_compile</text>
+</g></svg>
+<svg class="func_g" x="390.0155150148458" y="360" width="1" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\re\__init__.py:179:sub 0.52% (1800 1800 0.005639000000000001 0.0072772)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">sub</text>
+</g></svg>
+<svg class="func_g" x="390.0155150148458" y="384" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:168:_snippet 0.24% (1800 1800 0.0026171000000000002 0.028235100000000003)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_snippet</text>
+</g></svg>
+<svg class="func_g" x="390.0155150148458" y="408" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 4.44% (600 600 0.0479377 0.9468745000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="390.0155150148458" y="432" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="392.9019802879926" y="312" width="1" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.len&gt; 0.16% (9000 9000 0.0017087 0.0017087)</title>
+    <rect height="100%" width="100%" fill="rgb(182, 182, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.len&gt;</text>
+</g></svg>
+<svg class="func_g" x="394.80135380523603" y="312" width="1" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.max&gt; 0.14% (600 600 0.0015419000000000001 0.0015419000000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(198, 198, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.max&gt;</text>
+</g></svg>
+<svg class="func_g" x="394.80135380523603" y="336" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:168:_snippet 0.14% (600 600 0.0015419000000000001 0.0015419000000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_snippet</text>
+</g></svg>
+<svg class="func_g" x="394.80135380523603" y="360" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 4.44% (600 600 0.0479377 0.9468745000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="394.80135380523603" y="384" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="396.51531414130295" y="312" width="7.335923183215289" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.sorted&gt; 0.69% (1400 1400 0.007499100000000001 0.0240146)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.sorted&gt;</text>
+</g></svg>
+<svg class="func_g" x="396.8592396153866" y="336" width="6.9919977091316206" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:168:_snippet 0.62% (1200 1200 0.006693800000000001 0.0230238)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_snippet</text>
+</g></svg>
+<svg class="func_g" x="396.8592396153866" y="360" width="6.9919977091316206" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 4.44% (600 600 0.0479377 0.9468745000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="396.8592396153866" y="384" width="6.9919977091316206" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="404.8512373245182" y="312" width="2.379455356190893" height="23"><g>
+    <title>~:0:&lt;built-in method math.log&gt; 0.28% (1800 1800 0.0030402000000000003 0.0030402000000000003)</title>
+    <rect height="100%" width="100%" fill="rgb(182, 182, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method math.log&gt;</text>
+</g></svg>
+<svg class="func_g" x="404.8512373245182" y="336" width="2.379455356190893" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\score.py:26:__call__ 0.28% (1800 1800 0.0030402000000000003 0.0030402000000000003)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__call__</text>
+</g></svg>
+<svg class="func_g" x="404.8512373245182" y="360" width="2.379455356190893" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 0.62% (1800 1800 0.0066403 0.0141636)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="404.8512373245182" y="384" width="2.379455356190893" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="409.08872885906703" y="312" width="48.58035168663838" height="23"><g>
+    <title>~:0:&lt;built-in method nt.stat&gt; 4.13% (600 600 0.0446031 0.0812848)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method nt.stat&gt;</text>
+</g></svg>
+<svg class="func_g" x="409.08872885906703" y="336" width="48.58035168663838" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:836:stat 4.13% (600 600 0.0446031 0.0812848)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">stat</text>
+</g></svg>
+<svg class="func_g" x="409.08872885906703" y="360" width="48.58035168663838" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:887:is_file 0.05% (600 600 0.0004914 0.08177620000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">is_file</text>
+</g></svg>
+<svg class="func_g" x="409.08872885906703" y="384" width="48.58035168663837" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:168:_snippet 0.45% (600 600 0.0048846 0.08728520000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_snippet</text>
+</g></svg>
+<svg class="func_g" x="409.08872885906703" y="408" width="48.58035168663837" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 4.44% (600 600 0.0479377 0.9468745000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="409.08872885906703" y="432" width="48.58035168663837" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="458.6690805457054" y="312" width="2.6195587562755036" height="23"><g>
+    <title>~:0:&lt;built-in method sys.intern&gt; 0.30% (1800 1800 0.0032562000000000003 0.0032562000000000003)</title>
+    <rect height="100%" width="100%" fill="rgb(166, 166, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method sys.intern&gt;</text>
+</g></svg>
+<svg class="func_g" x="458.6690805457054" y="336" width="2.6195587562755036" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:387:_parse_path 0.30% (1800 1800 0.0032562000000000003 0.0032562000000000003)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_parse_path</text>
+</g></svg>
+<svg class="func_g" x="458.6690805457054" y="360" width="2.619558756275504" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:407:_load_parts 0.87% (600 600 0.009391100000000001 0.019816900000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_load_parts</text>
+</g></svg>
+<svg class="func_g" x="458.6690805457054" y="384" width="2.619558756275504" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:551:drive 0.17% (600 600 0.0018768 0.021908)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">drive</text>
+</g></svg>
+<svg class="func_g" x="458.6690805457054" y="408" width="2.6195587562755036" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:437:__str__ 0.22% (600 600 0.002422 0.02433)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__str__</text>
+</g></svg>
+<svg class="func_g" x="458.6690805457054" y="432" width="2.6195587562755036" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:447:__fspath__ 0.64% (1200 1200 0.006912400000000001 0.0353168)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__fspath__</text>
+</g></svg>
+<svg class="func_g" x="458.7400680299126" y="456" width="2.5485712720682914" height="23"><g>
+    <title>~:0:&lt;built-in method nt.stat&gt; 0.14% (600 600 0.0014902000000000001 0.036681700000000005)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method nt.stat&gt;</text>
+</g></svg>
+<svg class="func_g" x="458.7400680299126" y="480" width="2.5485712720682914" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:836:stat 4.13% (600 600 0.0446031 0.0812848)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">stat</text>
+</g></svg>
+<svg class="func_g" x="458.7400680299126" y="504" width="2.5485712720682914" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:887:is_file 0.05% (600 600 0.0004914 0.08177620000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">is_file</text>
+</g></svg>
+<svg class="func_g" x="458.7400680299126" y="528" width="2.5485712720682914" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:168:_snippet 0.45% (600 600 0.0048846 0.08728520000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_snippet</text>
+</g></svg>
+<svg class="func_g" x="458.7400680299126" y="552" width="2.5485712720682914" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 4.44% (600 600 0.0479377 0.9468745000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="458.7400680299126" y="576" width="2.5485712720682914" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="462.5038430902049" y="312" width="40.82723504353588" height="23"><g>
+    <title>~:0:&lt;method '__exit__' of '_io._IOBase' objects&gt; 3.49% (600 600 0.0376283 0.0376283)</title>
+    <rect height="100%" width="100%" fill="rgb(230, 230, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method '__exit__' of '_io._IOBase' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="462.5038430902049" y="336" width="40.82723504353588" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:1016:read_bytes 3.49% (600 600 0.0376283 0.0376283)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">read_bytes</text>
+</g></svg>
+<svg class="func_g" x="462.5038430902049" y="360" width="40.82723504353588" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\documents.py:9:read_text 0.47% (600 600 0.005023700000000001 0.3666844)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">read_text</text>
+</g></svg>
+<svg class="func_g" x="462.5038430902049" y="384" width="40.82723504353588" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:168:_snippet 0.55% (600 600 0.005903800000000001 0.5288898000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_snippet</text>
+</g></svg>
+<svg class="func_g" x="462.5038430902049" y="408" width="40.82723504353588" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 4.44% (600 600 0.0479377 0.9468745000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="462.5038430902049" y="432" width="40.82723504353588" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="504.6884542593296" y="312" width="1.6180163327744195" height="23"><g>
+    <title>~:0:&lt;method 'cache_info' of 'functools._lru_cache_wrapper' objects&gt; 0.22% (400 400 0.0023552 0.0030675000000000003)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'cache_info' of 'functools._lru_cache_wrapper' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="504.6884542593296" y="336" width="1.6180163327744195" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 0.22% (400 400 0.0023552 0.0030675000000000003)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="504.6884542593296" y="360" width="1.6180163327744195" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="507.3064705921041" y="312" width="172.743266660485" height="23"><g>
+    <title>~:0:&lt;method 'decode' of 'bytes' objects&gt; 14.48% (600 600 0.1563016 0.1563016)</title>
+    <rect height="100%" width="100%" fill="rgb(182, 182, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'decode' of 'bytes' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="507.3064705921041" y="336" width="172.743266660485" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\documents.py:9:read_text 14.48% (600 600 0.1563016 0.1563016)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">read_text</text>
+</g></svg>
+<svg class="func_g" x="507.3064705921041" y="360" width="172.743266660485" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:168:_snippet 0.55% (600 600 0.005903800000000001 0.5288898000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_snippet</text>
+</g></svg>
+<svg class="func_g" x="507.3064705921041" y="384" width="172.743266660485" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 4.44% (600 600 0.0479377 0.9468745000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="507.3064705921041" y="408" width="172.743266660485" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="681.0929780964005" y="312" width="1" height="23"><g>
+    <title>~:0:&lt;method 'find' of 'str' objects&gt; 0.11% (600 600 0.0012351 0.0012351)</title>
+    <rect height="100%" width="100%" fill="rgb(230, 230, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'find' of 'str' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="681.0929780964005" y="336" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:168:_snippet 0.11% (600 600 0.0012351 0.0012351)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_snippet</text>
+</g></svg>
+<svg class="func_g" x="681.0929780964005" y="360" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 4.44% (600 600 0.0479377 0.9468745000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="681.0929780964005" y="384" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="685.4846471383185" y="312" width="228.1748048164075" height="23"><g>
+    <title>~:0:&lt;method 'lower' of 'str' objects&gt; 19.10% (1200 1200 0.2061685 0.2061685)</title>
+    <rect height="100%" width="100%" fill="rgb(166, 166, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'lower' of 'str' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="685.6583886264353" y="336" width="228.0010633282907" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:168:_snippet 19.08% (600 600 0.2060122 0.2060122)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_snippet</text>
+</g></svg>
+<svg class="func_g" x="685.6583886264353" y="360" width="228.0010633282907" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 4.44% (600 600 0.0479377 0.9468745000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="685.6583886264353" y="384" width="228.0010633282907" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="914.659451954726" y="312" width="250.18272693175552" height="23"><g>
+    <title>~:0:&lt;method 'read' of '_io.BufferedReader' objects&gt; 20.93% (600 600 0.2259671 0.2259671)</title>
+    <rect height="100%" width="100%" fill="rgb(182, 182, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'read' of '_io.BufferedReader' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="914.659451954726" y="336" width="250.18272693175552" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:1016:read_bytes 20.93% (600 600 0.2259671 0.2259671)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">read_bytes</text>
+</g></svg>
+<svg class="func_g" x="914.659451954726" y="360" width="250.18272693175547" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\documents.py:9:read_text 0.47% (600 600 0.005023700000000001 0.3666844)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">read_text</text>
+</g></svg>
+<svg class="func_g" x="914.659451954726" y="384" width="250.18272693175547" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:168:_snippet 0.55% (600 600 0.005903800000000001 0.5288898000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_snippet</text>
+</g></svg>
+<svg class="func_g" x="914.659451954726" y="408" width="250.18272693175547" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 4.44% (600 600 0.0479377 0.9468745000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="914.659451954726" y="432" width="250.18272693175547" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="1165.8421788864814" y="312" width="1.5907823823018599" height="23"><g>
+    <title>~:0:&lt;method 'replace' of 'str' objects&gt; 0.22% (2400 2400 0.0023307000000000002 0.0023307000000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(182, 182, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'replace' of 'str' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="1166.8746235068454" y="336" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:168:_snippet 0.13% (600 600 0.0014019000000000002 0.0014019000000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_snippet</text>
+</g></svg>
+<svg class="func_g" x="1166.8746235068454" y="360" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 4.44% (600 600 0.0479377 0.9468745000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="1166.8746235068454" y="384" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="1168.4329612687832" y="312" width="1" height="23"><g>
+    <title>~:0:&lt;method 'split' of 'str' objects&gt; 0.12% (600 600 0.0013079 0.0013079)</title>
+    <rect height="100%" width="100%" fill="rgb(198, 198, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'split' of 'str' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="1168.4329612687832" y="336" width="1" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:387:_parse_path 0.12% (600 600 0.0013079 0.0013079)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_parse_path</text>
+</g></svg>
+<svg class="func_g" x="1168.4329612687832" y="360" width="1" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:407:_load_parts 0.87% (600 600 0.009391100000000001 0.019816900000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_load_parts</text>
+</g></svg>
+<svg class="func_g" x="1168.4329612687832" y="384" width="1" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:551:drive 0.17% (600 600 0.0018768 0.021908)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">drive</text>
+</g></svg>
+<svg class="func_g" x="1168.4329612687832" y="408" width="1" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:437:__str__ 0.22% (600 600 0.002422 0.02433)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__str__</text>
+</g></svg>
+<svg class="func_g" x="1168.4329612687832" y="432" width="1" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:447:__fspath__ 0.64% (1200 1200 0.006912400000000001 0.0353168)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__fspath__</text>
+</g></svg>
+<svg class="func_g" x="1168.4614744223347" y="456" width="1" height="23"><g>
+    <title>~:0:&lt;built-in method nt.stat&gt; 0.14% (600 600 0.0014902000000000001 0.036681700000000005)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method nt.stat&gt;</text>
+</g></svg>
+<svg class="func_g" x="1168.4614744223347" y="480" width="1" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:836:stat 4.13% (600 600 0.0446031 0.0812848)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">stat</text>
+</g></svg>
+<svg class="func_g" x="1168.4614744223347" y="504" width="1" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:887:is_file 0.05% (600 600 0.0004914 0.08177620000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">is_file</text>
+</g></svg>
+<svg class="func_g" x="1168.4614744223347" y="528" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:168:_snippet 0.45% (600 600 0.0048846 0.08728520000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_snippet</text>
+</g></svg>
+<svg class="func_g" x="1168.4614744223347" y="552" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 4.44% (600 600 0.0479377 0.9468745000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="1168.4614744223347" y="576" width="1" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="1169.8868095880919" y="312" width="1.9099198182476544" height="23"><g>
+    <title>~:0:&lt;method 'startswith' of 'str' objects&gt; 0.24% (600 600 0.0026178 0.0026178)</title>
+    <rect height="100%" width="100%" fill="rgb(198, 198, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'startswith' of 'str' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="1169.8868095880919" y="336" width="1.9099198182476544" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:387:_parse_path 0.24% (600 600 0.0026178 0.0026178)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_parse_path</text>
+</g></svg>
+<svg class="func_g" x="1169.8868095880919" y="360" width="1.9099198182476544" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:407:_load_parts 0.87% (600 600 0.009391100000000001 0.019816900000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_load_parts</text>
+</g></svg>
+<svg class="func_g" x="1169.8868095880919" y="384" width="1.9099198182476544" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:551:drive 0.17% (600 600 0.0018768 0.021908)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">drive</text>
+</g></svg>
+<svg class="func_g" x="1169.8868095880919" y="408" width="1.9099198182476544" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:437:__str__ 0.22% (600 600 0.002422 0.02433)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__str__</text>
+</g></svg>
+<svg class="func_g" x="1169.8868095880919" y="432" width="1.9099198182476544" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:447:__fspath__ 0.64% (1200 1200 0.006912400000000001 0.0353168)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__fspath__</text>
+</g></svg>
+<svg class="func_g" x="1169.9438794966227" y="456" width="1.8528499097169622" height="23"><g>
+    <title>~:0:&lt;built-in method nt.stat&gt; 0.14% (600 600 0.0014902000000000001 0.036681700000000005)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method nt.stat&gt;</text>
+</g></svg>
+<svg class="func_g" x="1169.9438794966227" y="480" width="1.8528499097169622" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:836:stat 4.13% (600 600 0.0446031 0.0812848)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">stat</text>
+</g></svg>
+<svg class="func_g" x="1169.9438794966227" y="504" width="1.8528499097169622" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:887:is_file 0.05% (600 600 0.0004914 0.08177620000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">is_file</text>
+</g></svg>
+<svg class="func_g" x="1169.9438794966227" y="528" width="1.8528499097169622" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:168:_snippet 0.45% (600 600 0.0048846 0.08728520000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_snippet</text>
+</g></svg>
+<svg class="func_g" x="1169.9438794966227" y="552" width="1.8528499097169622" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 4.44% (600 600 0.0479377 0.9468745000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="1169.9438794966227" y="576" width="1.8528499097169622" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="1172.7967294063394" y="312" width="17.26864513597476" height="23"><g>
+    <title>~:0:&lt;method 'sub' of 're.Pattern' objects&gt; 1.52% (1800 1800 0.0164347 0.0183408)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'sub' of 're.Pattern' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="1172.7967294063394" y="336" width="17.26864513597476" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\re\__init__.py:179:sub 1.52% (1800 1800 0.0164347 0.0183408)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">sub</text>
+</g></svg>
+<svg class="func_g" x="1172.7967294063394" y="360" width="17.26864513597476" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:168:_snippet 0.24% (1800 1800 0.0026171000000000002 0.028235100000000003)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_snippet</text>
+</g></svg>
+<svg class="func_g" x="1172.7967294063394" y="384" width="17.26864513597476" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 4.44% (600 600 0.0479377 0.9468745000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="1172.7967294063394" y="408" width="17.26864513597476" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="1191.0653745423142" y="312" width="7.551905084309919" height="23"><g>
+    <title>~:0:&lt;method 'translate' of 'str' objects&gt; 0.71% (1800 1800 0.0076934 0.0076934)</title>
+    <rect height="100%" width="100%" fill="rgb(214, 214, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'translate' of 'str' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="1191.0653745423142" y="336" width="7.551905084309919" height="23"><g>
+    <title>C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\re\__init__.py:255:escape 0.71% (1800 1800 0.0076934 0.0076934)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">escape</text>
+</g></svg>
+<svg class="func_g" x="1191.0653745423142" y="360" width="7.551905084309919" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:168:_snippet 0.28% (1800 1800 0.0030674 0.011333000000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_snippet</text>
+</g></svg>
+<svg class="func_g" x="1191.0653745423142" y="384" width="7.551905084309919" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\search.py:196:search 4.44% (600 600 0.0479377 0.9468745000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">search</text>
+</g></svg>
+<svg class="func_g" x="1191.0653745423142" y="408" width="7.551905084309919" height="23"><g>
+    <title>D:\games\python_laby\lab_8\src\findex\deco.py:11:wrapper 7.86% (200 200 0.0848687 1.0786632)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+</svg>

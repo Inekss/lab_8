@@ -218,3 +218,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Lab 08 artifacts
+embeddings.npy
+embeddings.meta.json
+*_doc_ids.npy
+index.pkl
+index.json
+index2.pkl
+index2.json
+*.prof
+.benchmarks/

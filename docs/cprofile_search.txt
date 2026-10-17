@@ -1,0 +1,44 @@
+# cProfile — findex search (BEFORE NumPy / any scorer changes)
+# Date: 2026-10-17
+# Corpus: src/resources → index.pkl (8 docs, 69_525 terms)
+# Command:
+#   uv run python -m cProfile -s cumtime -m findex search --index index.pkl "harry potter mag"
+# Total: 1043146 calls in 1.327 s
+
+         1043146 function calls (1038127 primitive calls) in 1.327 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+    350/1    0.014    0.000    1.327    1.327 {built-in method builtins.exec}
+        1    0.000    0.000    1.327    1.327 <frozen runpy>:201(run_module)
+        1    0.000    0.000    1.319    1.319 <frozen runpy>:65(_run_code)
+        1    0.000    0.000    1.319    1.319 __main__.py:1(<module>)
+    286/2    0.004    0.000    0.742    0.371 <frozen importlib._bootstrap>:1343(_find_and_load)
+    286/2    0.002    0.000    0.742    0.371 <frozen importlib._bootstrap>:1298(_find_and_load_unlocked)
+    279/2    0.002    0.000    0.741    0.370 <frozen importlib._bootstrap>:905(_load_unlocked)
+    244/2    0.001    0.000    0.740    0.370 <frozen importlib._bootstrap_external>:988(exec_module)
+    624/7    0.001    0.000    0.738    0.105 <frozen importlib._bootstrap>:480(_call_with_frames_removed)
+        1    0.000    0.000    0.737    0.737 cli.py:1(<module>)
+       24    0.001    0.000    0.628    0.026 __init__.py:1(<module>)
+        1    0.000    0.000    0.579    0.579 cli.py:275(main)
+        1    0.000    0.000    0.574    0.574 cli.py:200(cmd_search)
+        2    0.000    0.000    0.574    0.287 deco.py:11(wrapper)
+        1    0.000    0.000    0.574    0.574 store.py:20(load_pickle)
+        1    0.134    0.134    0.574    0.574 {built-in method _pickle.load}
+   104717    0.122    0.000    0.440    0.000 dataclasses.py:1163(_dataclass_setstate)
+      245    0.007    0.000    0.361    0.001 <frozen importlib._bootstrap_external>:1061(get_code)
+   104724    0.198    0.000    0.318    0.000 dataclasses.py:1269(fields)
+      246    0.002    0.000    0.291    0.001 <frozen importlib._bootstrap_external>:1182(get_data)
+        1    0.000    0.000    0.254    0.254 crawl.py:1(<module>)
+    44/33    0.000    0.000    0.245    0.007 {built-in method builtins.__import__}
+   155/78    0.000    0.000    0.237    0.003 <frozen importlib._bootstrap>:1384(_handle_fromlist)
+      246    0.180    0.001    0.180    0.001 {built-in method _io.open_code}
+        1    0.000    0.000    0.165    0.165 base_events.py:1(<module>)
+   418895    0.093    0.000    0.093    0.000 dataclasses.py:1284(<genexpr>)
+      245    0.101    0.000    0.101    0.000 {method 'read' of '_io.BufferedReader' objects}
+   104767    0.015    0.000    0.015    0.000 {method 'values' of 'dict' objects}
+
+# Note: cold CLI start — almost all cumtime is imports + pickle unpickle of
+# Posting dataclasses. Actual BM25 loop is tiny vs load on this corpus.
+# Still a valid pre-change baseline for Lab 08 M1.

@@ -1,0 +1,51 @@
+# Hot-path cProfile: 200x search after index already loaded
+# query='harry potter magic'
+
+         103601 function calls (102801 primitive calls) in 1.080 seconds
+
+   Ordered by: cumulative time
+   List reduced from 83 to 40 due to restriction <40>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      200    0.003    0.000    1.084    0.005 D:\games\python_laby\lab_8\src\findex\deco.py:11(wrapper)
+      200    0.085    0.000    1.079    0.005 D:\games\python_laby\lab_8\src\findex\search.py:196(search)
+      600    0.048    0.000    0.947    0.002 D:\games\python_laby\lab_8\src\findex\search.py:168(_snippet)
+      600    0.006    0.000    0.529    0.001 D:\games\python_laby\lab_8\src\findex\documents.py:9(read_text)
+      600    0.005    0.000    0.367    0.001 C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:1016(read_bytes)
+      600    0.226    0.000    0.226    0.000 {method 'read' of '_io.BufferedReader' objects}
+     1200    0.206    0.000    0.206    0.000 {method 'lower' of 'str' objects}
+      600    0.156    0.000    0.156    0.000 {method 'decode' of 'bytes' objects}
+      600    0.002    0.000    0.098    0.000 C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:1006(open)
+      600    0.096    0.000    0.097    0.000 {built-in method _io.open}
+      600    0.005    0.000    0.087    0.000 C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:887(is_file)
+      600    0.000    0.000    0.082    0.000 C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:836(stat)
+      600    0.045    0.000    0.081    0.000 {built-in method nt.stat}
+      600    0.038    0.000    0.038    0.000 {method '__exit__' of '_io._IOBase' objects}
+     1200    0.002    0.000    0.037    0.000 C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:447(__fspath__)
+     1200    0.007    0.000    0.035    0.000 C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:437(__str__)
+     1800    0.003    0.000    0.028    0.000 C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\re\__init__.py:179(sub)
+      600    0.002    0.000    0.024    0.000 C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:551(drive)
+     1400    0.007    0.000    0.024    0.000 {built-in method builtins.sorted}
+      600    0.002    0.000    0.022    0.000 C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:407(_load_parts)
+      600    0.009    0.000    0.020    0.000 C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:387(_parse_path)
+     1800    0.016    0.000    0.018    0.000 {method 'sub' of 're.Pattern' objects}
+     1800    0.003    0.000    0.016    0.000 D:\games\python_laby\lab_8\src\findex\search.py:176(<lambda>)
+     3600    0.006    0.000    0.016    0.000 D:\games\python_laby\lab_8\src\findex\models.py:99(df)
+     1800    0.007    0.000    0.014    0.000 D:\games\python_laby\lab_8\src\findex\score.py:26(__call__)
+      200    0.002    0.000    0.013    0.000 D:\games\python_laby\lab_8\src\findex\query.py:135(parse)
+     1800    0.003    0.000    0.011    0.000 C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\re\__init__.py:255(escape)
+     4200    0.002    0.000    0.009    0.000 <frozen _collections_abc>:811(__contains__)
+      200    0.000    0.000    0.008    0.000 D:\games\python_laby\lab_8\src\findex\query.py:175(or_expr)
+     8400    0.008    0.000    0.008    0.000 D:\games\python_laby\lab_8\src\findex\models.py:67(__getitem__)
+     1800    0.008    0.000    0.008    0.000 {method 'translate' of 'str' objects}
+      200    0.001    0.000    0.008    0.000 D:\games\python_laby\lab_8\src\findex\query.py:164(and_expr)
+     1800    0.006    0.000    0.007    0.000 C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\re\__init__.py:280(_compile)
+      600    0.003    0.000    0.007    0.000 C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:1158(__init__)
+ 1000/200    0.004    0.000    0.005    0.000 D:\games\python_laby\lab_8\src\findex\query.py:185(query_terms)
+      600    0.001    0.000    0.005    0.000 D:\games\python_laby\lab_8\src\findex\query.py:157(not_expr)
+     7800    0.005    0.000    0.005    0.000 {built-in method builtins.isinstance}
+      200    0.004    0.000    0.005    0.000 D:\games\python_laby\lab_8\src\findex\search.py:154(_matcher)
+     1200    0.003    0.000    0.004    0.000 <frozen ntpath>:179(splitroot)
+      600    0.001    0.000    0.004    0.000 C:\Users\Windows\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:429(_format_parsed_parts)
+
+

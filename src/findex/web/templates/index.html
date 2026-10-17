@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+{% block title %}{% if q %}{{ q }} · findex{% else %}findex{% endif %}{% endblock %}
+{% block content %}
+  <section class="hero">
+    <h1>findex</h1>
+    <p class="lede">Search the indexed corpus. API at <a href="/docs">/docs</a>.</p>
+    <form class="search-form" method="get" action="/">
+      <label class="sr-only" for="q">Query</label>
+      <input id="q" name="q" type="search" value="{{ q }}" placeholder="quirrell OR harry" required maxlength="200" autofocus>
+      <div class="controls">
+        <label>
+          mode
+          <select name="mode">
+            <option value="keyword" {% if mode == "keyword" %}selected{% endif %}>keyword</option>
+            <option value="semantic" {% if mode == "semantic" %}selected{% endif %} {% if not embeddings_ready %}disabled{% endif %}>semantic</option>
+            <option value="hybrid" {% if mode == "hybrid" %}selected{% endif %} {% if not embeddings_ready %}disabled{% endif %}>hybrid</option>
+          </select>
+        </label>
+        <label>
+          scorer
+          <select name="scorer">
+            <option value="bm25" {% if scorer == "bm25" %}selected{% endif %}>bm25</option>
+            <option value="tfidf" {% if scorer == "tfidf" %}selected{% endif %}>tfidf</option>
+          </select>
+        </label>
+        <label>
+          per page
+          <input name="k" type="number" min="1" max="100" value="{{ k }}">
+        </label>
+        <button type="submit">Search</button>
+      </div>
+    </form>
+    {% if not embeddings_ready %}
+    <p class="meta">Semantic / hybrid need embeddings (findex embed + EMBEDDINGS_PATH).</p>
+    {% endif %}
+  </section>
+
+  {% if error %}
+  <p class="empty">{{ error }}</p>
+  {% endif %}
+
+  {% if response %}
+  <section class="results" aria-live="polite">
+    <p class="meta">{{ response.total }} hit{% if response.total != 1 %}s{% endif %} · {{ "%.1f"|format(response.took_ms) }} ms · mode {{ response.mode }} · page {{ response.page }}</p>
+    {% if response.results %}
+    <ol class="hit-list" start="{{ (response.page - 1) * response.page_size + 1 }}">
+      {% for hit in response.results %}
+      <li class="hit">
+        <a class="hit-title" href="/doc/{{ hit.doc_id }}">{{ hit.title }}</a>
+        <span class="score">{{ "%.4f"|format(hit.score) }}</span>
+        <p class="snippet">{{ hit.snippet | highlight | safe }}</p>
+      </li>
+      {% endfor %}
+    </ol>
+    {% if total_pages > 1 %}
+    <nav class="pager">
+      {% if page > 1 %}
+      <a href="/?q={{ q|urlencode }}&amp;k={{ k }}&amp;scorer={{ scorer }}&amp;mode={{ mode }}&amp;page={{ page - 1 }}">← prev</a>
+      {% endif %}
+      <span>page {{ page }} / {{ total_pages }}</span>
+      {% if page < total_pages %}
+      <a href="/?q={{ q|urlencode }}&amp;k={{ k }}&amp;scorer={{ scorer }}&amp;mode={{ mode }}&amp;page={{ page + 1 }}">next →</a>
+      {% endif %}
+    </nav>
+    {% endif %}
+    {% else %}
+    <p class="empty">No matches.</p>
+    {% endif %}
+  </section>
+  {% endif %}
+{% endblock %}
